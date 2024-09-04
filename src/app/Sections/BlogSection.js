@@ -37,7 +37,7 @@ export const BlogSection = () => {
         {blogs.map((blog, index) => (
           <div
             key={index}
-            className="max-w-[18rem] cursor-pointer"
+            className="max-w-[18rem] cursor-pointer hover:scale-105 transition-all duration-300"
             onClick={() => handleClick(blog.link)}
           >
             <div className='overflow-hidden w-[18rem] h-48 rounded-2xl'>

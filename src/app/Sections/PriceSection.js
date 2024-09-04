@@ -9,7 +9,7 @@ export const PriceSection = () => {
     <>
     <SectionTitle text='OUR PRICING'/>
 
-    <div className='container px-20 mb-32 mt-16 flex items-center gap-5'>
+    <div className='container px-20 mb-32 mt-16 flex items-center justify-center gap-5'>
 
     {/* Basic */}
     <div className='bg-[#0A1B33] text-white py-9 px-6 max-w-[22rem] rounded-lg hover:shadow-[6px_7px_20px_rgba(242,208,202,0.65),-6px_7px_20px_rgba(242,208,202,0.65)] hover:scale-105 transition-all duration-300'>

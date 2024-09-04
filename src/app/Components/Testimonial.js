@@ -35,7 +35,7 @@ export const Testimonial = ({
           <p>{testimonialText}</p>
         </div>
         <div className='text-white font-light text-[0.8rem]'>
-          <p>{authorName} <span className='text-[#64748B] font-semibold'>{authorTitle}</span></p>
+          <p>{authorName} <span className='text-[#64748B] font-semibold pl-1'>{authorTitle}</span></p>
         </div>
       </div>
     </div>

@@ -1,11 +1,30 @@
-import React from 'react'
+import React from 'react';
+import { NavSection } from './Sections/NavSection';
+import { HeroSection } from './Sections/HeroSection';
+import { FooterSection } from './Sections/FooterSection';
+import { FAQSection } from './Sections/FAQSection';
+import { FeaturesSection } from './Sections/FeaturesSection';
+import { BlogSection } from './Sections/BlogSection';
+import { TestimonialSection } from './Sections/TestimonialSection';
+import { WorkflowSection } from './Sections/WorkflowSection';
+import { FocusSection } from './Sections/FocusSection';
+import { PriceSection } from './Sections/PriceSection';
+
 
 const page = () => {
+
   return (
-    <section className='py-8'>
-    <div className='container'>
-      <h1 className='text-3xl font-bold text-center'>My Next JS Boilerplate</h1>
-    </div>
+    <section className='bg-[#0F172A]'>
+      <NavSection/>
+      <HeroSection/>
+      <FeaturesSection/>
+      <BlogSection/>
+      <WorkflowSection/>
+      <PriceSection/>
+      <TestimonialSection/>
+      <FocusSection/>
+      <FAQSection/>
+      <FooterSection/>
   </section>
   )
 }

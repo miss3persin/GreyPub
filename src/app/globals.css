@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-placeholder-style::placeholder{
+    font-size: 12px
+}
+
+.gradient-blur {
+  position: fixed !important;
+  height: 100px;
+  /* overflow: hidden; */
+  width: 100%;
+  z-index: 40;
+  -webkit-mask-image: linear-gradient(to bottom,
+  rgba(0, 0, 0, 1) 0%,
+  rgba(0, 0, 0, 0.9) 15%,
+  rgba(0, 0, 0, 0.7) 45%,
+  /* rgba(0, 0, 0, 0.5) 45%, */
+  rgba(0, 0, 0, 0.3) 75%,
+  /* rgba(0, 0, 0, 0.1) 75%, */
+  transparent 100%
+  );
+
+  mask-image: linear-gradient(to bottom,
+  rgba(0, 0, 0, 1) 0%,
+  rgba(0, 0, 0, 0.9) 15%,
+  rgba(0, 0, 0, 0.7) 45%,
+  /* rgba(0, 0, 0, 0.5) 45%, */
+  rgba(0, 0, 0, 0.3) 75%,
+  /* rgba(0, 0, 0, 0.1) 75%, */
+  transparent 100%
+  );
+  backdrop-filter: blur(50px) contrast(1.0) brightness(0.8);
+}
+
+  
+

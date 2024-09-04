@@ -26,7 +26,7 @@ export const HeroSection = () => {
           to detailed writeups.
         </p>
 
-        <MainButton text='Start Using GreyPub Today' />
+        <MainButton text='Start Using GreyPub Today' link='https://greypub.vercel.app/'/>
       </div>
 
       <div div className='item-center container relative flex w-[1040px] flex-col'>

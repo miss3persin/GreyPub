@@ -26,20 +26,25 @@ export const FooterSection = () => {
             href='https://twitter.com/miss3persin'
             target='_blank'
             rel='noopener noreferrer'
+            className='transform transition duration-200 ease-in-out hover:scale-105'
           >
             <Image src={twitter} alt='Twitter' width={40} height={40} />
           </a>
+
           <a
             href='https://instagram.com/this_is_segun'
             target='_blank'
             rel='noopener noreferrer'
+            className='transform transition duration-200 ease-in-out hover:scale-105'
           >
             <Image src={instagram} alt='Instagram' width={40} height={40} />
           </a>
+
           <a
             href='https://miss3persin.vercel.app'
             target='_blank'
             rel='noopener noreferrer'
+            className='transform transition duration-200 ease-in-out hover:scale-105'
           >
             <Image src={linkedin} alt='LinkedIn' width={40} height={40} />
           </a>

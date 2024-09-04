@@ -15,7 +15,7 @@ export const PriceSection = () => {
     <div className='bg-[#0A1B33] text-white py-9 px-6 max-w-[22rem] rounded-lg hover:shadow-[6px_7px_20px_rgba(242,208,202,0.65),-6px_7px_20px_rgba(242,208,202,0.65)] hover:scale-105 transition-all duration-300'>
         <p className='font-bold text-xl mb-4'>Basic</p>
         <p className='font-light text-[0.865rem] mb-4 text-[#D0D2D4]'>For simpler projects needing minimal code or write-ups</p>
-        <button className='border-2 border-[#FF4B26] w-full font-medium text-[0.865rem] py-3 rounded mb-10'>Get Started Now</button>
+        <button className='border-2 border-[#FF4B26] w-full font-medium text-[0.865rem] py-3 rounded mb-10 transition duration-200 ease-in-out transform hover:bg-[#FF4B26] hover:scale-105'>Get Started Now</button>
         
         <div className='flex items-center gap-4 mb-3'>
             <Image src={good_icon}/>
@@ -62,7 +62,7 @@ export const PriceSection = () => {
     <div className='bg-[#0A1B33] text-white py-9 px-6 max-w-[22rem] rounded-lg hover:shadow-[6px_7px_20px_rgba(242,208,202,0.65),-6px_7px_20px_rgba(242,208,202,0.65)] hover:scale-105 transition-all duration-300'>
         <p className='font-bold text-xl mb-4'>Standard</p>
         <p className='font-light text-[0.865rem] mb-4 text-[#D0D2D4]'>Balanced plan for typical BSc/MSc research projects</p>
-        <button className='border-2 border-[#FF4B26] bg-[#FF4B26] w-full font-medium text-[0.865rem] py-3 rounded mb-10'>Get Started Now</button>
+        <button className='border-2 border-[#FF4B26] bg-[#FF4B26] w-full font-medium text-[0.865rem] py-3 rounded mb-10 transition duration-200 ease-in-out transform hover:bg-transparent hover:scale-105'>Get Started Now</button>
         
         <div className='flex items-center gap-4 mb-3'>
             <Image src={good_icon}/>
@@ -110,7 +110,7 @@ export const PriceSection = () => {
     <div className='bg-[#0A1B33] text-white py-9 px-6 max-w-[22rem] rounded-lg hover:shadow-[6px_7px_20px_rgba(242,208,202,0.65),-6px_7px_20px_rgba(242,208,202,0.65)] hover:scale-105 transition-all duration-300'>
         <p className='font-bold text-xl mb-4'>Premium</p>
         <p className='font-light text-[0.865rem] mb-4 text-[#D0D2D4]'>Comprehensive support for PhD projects or advanced research</p>
-        <button className='border-2 border-[#FF4B26] w-full font-medium text-[0.865rem] py-3 rounded mb-10'>Get Started Now</button>
+        <button className='border-2 border-[#FF4B26] w-full font-medium text-[0.865rem] py-3 rounded mb-10 transition duration-200 ease-in-out transform hover:bg-[#FF4B26] hover:scale-105'>Get Started Now</button>
         
         <div className='flex items-center gap-4 mb-3'>
             <Image src={good_icon}/>

@@ -1,4 +1,6 @@
-import React from 'react';
+'use client'
+
+import React, { useEffect } from 'react';
 import { NavSection } from './Sections/NavSection';
 import { HeroSection } from './Sections/HeroSection';
 import { FooterSection } from './Sections/FooterSection';
@@ -12,6 +14,10 @@ import { PriceSection } from './Sections/PriceSection';
 
 
 const page = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <section className='bg-[#0F172A]'>

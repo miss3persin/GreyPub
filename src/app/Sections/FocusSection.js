@@ -20,40 +20,42 @@ export const FocusSection = () => {
         <div className='w-fit flex flex-col gap-6 items-center justify-center pb-5 mb-8 border-b border-[#ffffff25]'>
 
           <div className='flex items-center justify-center w-full gap-2'>
-            <Topics text='Blockchain' />
+            <Topics text='Artificial Intelligence' />
+            <Topics text='Machine Learning' />
           </div>
 
           <div className='flex items-center justify-center w-full gap-2'>
+            <Topics text='Data Science' />
+            <Topics text='Natural Language Processing (NLP)' />
+            <Topics text='Computer Vision' />
+          </div>
+
+          <div className='flex items-center justify-center w-full gap-2'>
+            <Topics text='Augmented Reality' />
+            <Topics text='Big Data analytics' />
+            <Topics text='Cybersecurity' />
+            <Topics text='Cloud Computing' />
+          </div>
+
+          <div className='flex items-center justify-center w-full gap-2'>
+            <Topics text='Internet of Things (IoT)' />
+            <Topics text='Blockchain Technology' />
+            <Topics text='Software Engineering' />
+            <Topics text='Database Systems' />
+          </div>
+
+          <div className='flex items-center justify-center w-full gap-2'>
+            <Topics text='Web and Mobile App Development' />
+            <Topics text='Networking and Communication systems' />
             <Topics text='Robotics' />
-            <Topics text='Data Analytics' />
-            <Topics text='Virtual Reality (VR)' />
-          </div>
-
-          <div className='flex items-center justify-center w-full gap-2'>
-            <Topics text='Digital Forensics' />
             <Topics text='Bioinformatics' />
-            <Topics text='Quantum Computing' />
-            <Topics text='Bioinformatics' />
-          </div>
-
-          <div className='flex items-center justify-center w-full gap-2'>
-            <Topics text='Quantum Computing' />
-            <Topics text='Bioinformatics' />
-            <Topics text='Quantum Computing' />
-            <Topics text='Bioinformatics' />
-          </div>
-
-          <div className='flex items-center justify-center w-full gap-2'>
-            <Topics text='Augmented Reality (AR) For Specialized Industries' />
-            <Topics text='Cryptocurrency Mining' />
-            <Topics text='Internet Of Things (IoT)' />
           </div>
 
         </div>
 
-        <div>
+        {/* <div>
             <Image src={idek}/>
-        </div>
+        </div> */}
       </div>
     </>
   )

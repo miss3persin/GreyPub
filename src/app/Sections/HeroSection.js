@@ -16,7 +16,7 @@ export const HeroSection = () => {
       }
     }, []);
   return (
-    <div className='container flex flex-col items-center justify-center px-20 pt-48 mb-28'>
+    <div className='container flex flex-col items-center justify-center pr-20 pt-48 mb-28'>
       <div className='max-w-[40rem] text-center text-white'>
         <p className='mb-5 text-[3.5rem] font-extrabold leading-tight'>
           Your Gateway to Academic Excellence
@@ -29,8 +29,8 @@ export const HeroSection = () => {
         <MainButton text='Start Using GreyPub Today' link='https://greypub.vercel.app/'/>
       </div>
 
-      <div div className='item-center container relative flex w-[1040px] flex-col'>
-        <div className='mt-32 h-[35rem] w-[65rem] relative overflow-hidden rounded-2xl bg-slate-800'>
+      <div div className='item-center  container relative flex w-[1040px] flex-col'>
+        <div className='mt-32 h-[40rem] w-[70rem] relative overflow-hidden rounded-2xl bg-slate-800'>
         <Image src={gradient} alt='' className='w-full h-48 absolute bottom-0 z-10' />
           <video
             ref={videoRef}

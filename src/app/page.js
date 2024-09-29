@@ -24,10 +24,10 @@ const page = () => {
       <NavSection/>
       <HeroSection/>
       <FeaturesSection/>
-      <BlogSection/>
+      {/* <BlogSection/> */}
       <WorkflowSection/>
       <PriceSection/>
-      <TestimonialSection/>
+      {/* <TestimonialSection/> */}
       <FocusSection/>
       <FAQSection/>
       <FooterSection/>

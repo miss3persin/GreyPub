@@ -28,7 +28,7 @@ export const FooterSection = () => {
             rel='noopener noreferrer'
             className='transform transition duration-200 ease-in-out hover:scale-105'
           >
-            <Image src={twitter} alt='Twitter' width={40} height={40} className='w-7 h-7 md:w-10 md:h-10' />
+            <Image src={twitter} alt='Twitter' width={40} height={40} className='w-7 md:w-10' />
           </a>
 
           <a
@@ -37,7 +37,7 @@ export const FooterSection = () => {
             rel='noopener noreferrer'
             className='transform transition duration-200 ease-in-out hover:scale-105'
           >
-            <Image src={instagram} alt='Instagram' width={40} height={40} className='w-7 h-7 md:w-10 md:h-10' />
+            <Image src={instagram} alt='Instagram' width={40} height={40} className='w-7 md:w-10' />
           </a>
 
           <a
@@ -46,7 +46,7 @@ export const FooterSection = () => {
             rel='noopener noreferrer'
             className='transform transition duration-200 ease-in-out hover:scale-105'
           >
-            <Image src={linkedin} alt='LinkedIn' width={40} height={40} className='w-7 h-7 md:w-10 md:h-10'/>
+            <Image src={linkedin} alt='LinkedIn' width={40} height={40} className='w-7 md:w-10'/>
           </a>
         </div>
       </div>

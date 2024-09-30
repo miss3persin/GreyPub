@@ -20,8 +20,8 @@ export const Testimonial = ({
 
   return (
     <div className='max-w-[29rem] flex gap-2 mr-8'>
-      <div className='w-20'>
-        <div className='rounded-full w-11 h-11 overflow-hidden'>
+      <div className='md:w-20'>
+        <div className='rounded-full w-9 h-9 md:w-11 md:h-11 overflow-hidden'>
           <Image src={imageSrc} alt='Person' width={44} height={44} className='w-full h-full object-cover' />
         </div>
       </div>
@@ -31,10 +31,10 @@ export const Testimonial = ({
           {stars}
         </div>
 
-        <div className='text-white font-normal text-sm leading-relaxed'>
+        <div className='text-white max-w-[16rem] md:max-w-none font-normal text-xs md:text-sm leading-relaxed'>
           <p>{testimonialText}</p>
         </div>
-        <div className='text-white font-light text-[0.8rem]'>
+        <div className='text-white font-light text-xs md:text-[0.8rem]'>
           <p>{authorName} <span className='text-[#64748B] font-semibold pl-1'>{authorTitle}</span></p>
         </div>
       </div>

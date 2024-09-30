@@ -18,12 +18,13 @@ export const Accordion = ({ items }) => {
             onClick={() => toggleItem(index)}
             className="flex items-center justify-between w-full py-6 text-left"
           >
-            <span className="text-sm font-normal">{item.title}</span>
+            <span className=" text-[0.6rem] md:text-[0.8rem] lg:text-sm font-normal">{item.title}</span>
             <Image
               src={openIndex === index ? item.iconOpen : item.iconClosed}
               alt="Toggle Icon"
               width={24}
               height={24}
+              className='w-4 h-4 md:w-6 md:h-6'
             />
           </button>
           <div
@@ -31,7 +32,7 @@ export const Accordion = ({ items }) => {
               openIndex === index ? 'max-h-screen' : 'max-h-0'
             }`}
           >
-            <div className="pt-0 pb-8 text-sm font-extralight max-w-[46rem]">{item.content}</div>
+            <div className="pt-0 pb-8 text-[0.55rem] md:text-xs lg:text-sm font-extralight max-w-[46rem]">{item.content}</div>
           </div>
         </div>
       ))}

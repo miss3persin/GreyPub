@@ -9,22 +9,22 @@ export const FocusSection = () => {
   return (
     <>
       <SectionTitle text='FOCUS' />
-      <div className='container px-20 flex flex-col items-center relative mb-28'>
-        <Image src={blob} className='absolute w-full -bottom-7'/>
+      <div className='container px-3 md:px-20 flex flex-col items-center relative mb-28'>
+        <Image src={blob} className='absolute w-full bottom-0 md:-bottom-7'/>
         <div className='mb-12 flex w-full flex-col items-center text-center text-white'>
-          <p className='text-base font-extralight'>
+          <p className='text-xs md:text-base font-extralight'>
             Some of the Topics we offer
           </p>
         </div>
 
-        <div className='w-fit flex flex-col gap-6 items-center justify-center pb-5 mb-8 border-b border-[#ffffff25]'>
+        <div className='w-fit flex flex-col gap-3 lg:gap-6 items-center justify-center pb-5 mb-8 border-b border-[#ffffff25]'>
 
           <div className='flex items-center justify-center w-full gap-2'>
             <Topics text='Artificial Intelligence' />
             <Topics text='Machine Learning' />
           </div>
 
-          <div className='flex items-center justify-center w-full gap-2'>
+          <div className='flex  items-center justify-center w-full gap-2'>
             <Topics text='Data Science' />
             <Topics text='Natural Language Processing (NLP)' />
             <Topics text='Computer Vision' />

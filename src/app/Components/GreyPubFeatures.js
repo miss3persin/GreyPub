@@ -6,9 +6,9 @@ import check_circle from '/public/check-circle.png'
 
 export const GreyPubFeatures = ({ title, description }) => {
   return (
-    <div className='flex w-[32rem] gap-1'>
+    <div className='flex max-w-[32rem] gap-1'>
       <div className=''>
-        <div className='h-7 w-7 overflow-hidden rounded-full'>
+        <div className='h-6 w-6 md:h-7 md:w-7 overflow-hidden rounded-full'>
           <Image
             src={check_circle}
             alt='Check circle'
@@ -20,10 +20,10 @@ export const GreyPubFeatures = ({ title, description }) => {
       </div>
 
       <div className='flex flex-col pt-[0.1rem]'>
-        <div className='text-[16px] font-medium text-[#FF4B26] pb-1'>
+        <div className='text-sm md:text-[16px] font-semibold lg:font-medium text-[#FF4B26] pb-1'>
           <p>{title}</p>
         </div>
-        <div className='text-[13px] font-light leading-relaxed text-white'>
+        <div className='text-xs md:text-[13px] font-extralight md:font-light leading-relaxed text-white'>
           <p>{description}</p>
         </div>
       </div>

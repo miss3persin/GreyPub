@@ -61,10 +61,10 @@ export const FAQSection = () => {
   return (
     <>
     <SectionTitle text='FAQs'/>
-    <div className='container px-60 mb-32'>
+    <div className='container px-7 md:px-28 lg:px-60 mb-32'>
 
       <div className='w-full flex flex-col items-center text-center text-white mb-12'>
-        <p className='text-base font-extralight'>Some of the things you may want to know</p>
+        <p className='text-xs md:text-base font-extralight'>Some of the things you may want to know</p>
       </div>
 
       <div>

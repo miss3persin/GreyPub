@@ -27,7 +27,7 @@ export const WorkflowSection = () => {
             <p className='font-light text-[0.8rem]'>Experienced researchers in the field begin research on the project.</p>
         </div>
 
-        <div><Image src={flow_connector} className='my-16  w-16 md:w-28 lg:my-0 rotate-90 lg:rotate-0'/></div>
+        <div><Image src={flow_connector} className='my-16  w-16 md:w-20 lg:my-0 rotate-90 lg:rotate-0'/></div>
 
         <div className='text-white max-w-[23.5rem] lg:max-w-[11.5rem] flex flex-col gap-1'>
             <Image src={plan} />
@@ -35,7 +35,7 @@ export const WorkflowSection = () => {
             <p className='font-light text-[0.8rem]'>Select project requirements which generates a custom tailored price.</p>
         </div>
 
-        <div><Image src={flow_connector} className='my-16  w-16 md:w-28 lg:my-0 rotate-90 lg:rotate-0'/></div>
+        <div><Image src={flow_connector} className='my-16  w-16 md:w-20 lg:my-0 rotate-90 lg:rotate-0'/></div>
 
         <div className='text-white max-w-[23.5rem] lg:max-w-[11.5rem] flex flex-col gap-1'>
             <Image src={result_get} />

@@ -33,8 +33,8 @@ export const TestimonialSection = () => {
   return (
     <>
       <SectionTitle text='TESTIMONIALS' />
-      <div className='container px-7 md:px-20'>
-      <Marquee gradient={false} speed={30} className="container px-7 md:px-20">
+      <div className='container px-1 md:px-20'>
+      <Marquee gradient={false} speed={30} className="container px-1 md:px-20">
         <div className="flex mb-32">
           {testimonials.map((testimonial, index) => (
             <Testimonial

@@ -9,8 +9,8 @@ export const FocusSection = () => {
   return (
     <>
       <SectionTitle text='FOCUS' />
-      <div className='container px-3 md:px-20 flex flex-col items-center relative mb-28'>
-        <Image src={blob} className='absolute w-full bottom-0 md:-bottom-7'/>
+      <div className='container px-3 md:px-20 flex flex-col items-center relative mb-16 md:mb-28'>
+        <Image src={blob} className='absolute w-full hidden md:block md:-bottom-7'/>
         <div className='mb-12 flex w-full flex-col items-center text-center text-white'>
           <p className='text-xs md:text-base font-extralight'>
             Some of the Topics we offer
@@ -19,32 +19,32 @@ export const FocusSection = () => {
 
         <div className='w-fit flex flex-col gap-3 lg:gap-6 items-center justify-center pb-5 mb-8 border-b border-[#ffffff25]'>
 
-          <div className='flex items-center justify-center w-full gap-2'>
+          <div className='flex flex-col md:flex-row items-center justify-center w-full gap-2'>
             <Topics text='Artificial Intelligence' />
             <Topics text='Machine Learning' />
           </div>
 
-          <div className='flex  items-center justify-center w-full gap-2'>
+          <div className='flex flex-col md:flex-row items-center justify-center w-full gap-2'>
             <Topics text='Data Science' />
             <Topics text='Natural Language Processing (NLP)' />
             <Topics text='Computer Vision' />
           </div>
 
-          <div className='flex items-center justify-center w-full gap-2'>
+          <div className='flex flex-col md:flex-row items-center justify-center w-full gap-2'>
             <Topics text='Augmented Reality' />
             <Topics text='Big Data analytics' />
             <Topics text='Cybersecurity' />
             <Topics text='Cloud Computing' />
           </div>
 
-          <div className='flex items-center justify-center w-full gap-2'>
+          <div className='flex flex-col md:flex-row items-center justify-center w-full gap-2'>
             <Topics text='Internet of Things (IoT)' />
             <Topics text='Blockchain Technology' />
             <Topics text='Software Engineering' />
             <Topics text='Database Systems' />
           </div>
 
-          <div className='flex items-center justify-center w-full gap-2'>
+          <div className='flex flex-col md:flex-row items-center justify-center w-full gap-2'>
             <Topics text='Web and Mobile App Development' />
             <Topics text='Networking and Communication systems' />
             <Topics text='Robotics' />
